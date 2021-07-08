@@ -1,7 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-type Props = {}
-
-export default function User({}: Props) {
-    return (<div className="user"/>);
+const User: React.FC = () => {
+  return (
+    <div>
+      <h2>User</h2>
+    </div>
+  )
 }
+
+export default User

@@ -34,7 +34,7 @@ const Counter: React.FC = () => {
                   decrement
                 </button>
                 <button
-                  className="waves-effect waves-teal btn-flat red"
+                  className="waves-effect waves-light btn-flat red"
                   type="button"
                   data-qa="increment-counter"
                   onClick={() =>

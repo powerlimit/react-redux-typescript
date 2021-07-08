@@ -19,6 +19,7 @@ describe('Counter', () => {
 
   beforeEach(() => {
     // Clear any saved mock data from previous tests, because jest saves calls data for spies and mocks, https://jestjs.io/docs/en/mock-function-api#mockfnmockclear
+    // @ts-ignore
     store.dispatch.mockClear()
   })
 
